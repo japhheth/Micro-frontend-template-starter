@@ -40,7 +40,7 @@ const App = () => {
   };
 
   return (
-    <div className="text-3xl mx-auto max-w-6xl">
+    <div className="text-3xl w-full">
       <Header
         user={exampleUser}
         navigation={navigation}
@@ -53,5 +53,4 @@ const App = () => {
     </div>
   );
 };
-
 ReactDOM.render(<App />, document.getElementById("app"));
